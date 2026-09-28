@@ -11,7 +11,7 @@ Use this skill to find a public LinkedIn URL for existing lead records without n
 
 - Work only on the rows the user requests.
 - Treat the source lead row as authoritative for `Name`, `Position`, and `Company`.
-- Default output columns are `Name`, `Position`, `Company`, and `LinkedIn URL`.
+- Default output columns, in exact order, are `Name`, `Company`, `Position`, and `LinkedIn URL`.
 - Preserve existing valid URLs unless the user explicitly asks to recheck or replace them.
 - Do not edit a workbook until the user explicitly authorizes the edit.
 
